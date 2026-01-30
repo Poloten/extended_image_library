@@ -134,7 +134,6 @@ class ExtendedNetworkImageProvider extends ImageProvider<image_provider.Extended
           result = await instantiateImageCodec(data, decode);
         }
       } catch (e) {
-        err = e;
         if (printError) {
           print(e);
         }
